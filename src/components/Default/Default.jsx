@@ -493,31 +493,6 @@ const Default = () => {
             </button>
           </div>
         </div>
-
-        <div className={style.right_pay}>
-          <h2 className="text-white">
-            Orders #34562
-          </h2>
-          <p>3 payment method available</p>
-
-          <h3>Payment Method</h3>
-
-          <ul>
-            <li>
-              <img src="" alt="" />
-              <p></p>
-            </li>
-            <li>
-              <img src="" alt="" />
-              <p></p>
-            </li>
-            <li>
-              <img src="" alt="" />
-              <p></p>
-            </li>
-          </ul>
-
-        </div>
       </div>
     </section>
   );
