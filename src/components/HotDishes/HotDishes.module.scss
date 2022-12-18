@@ -1,0 +1,39 @@
+.hotDishes {
+}
+
+.hotDishesTop {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.title {
+  margin: 0;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 140%;
+  color: #ffffff;
+}
+
+.select {
+  width: 100%;
+  max-width: 120px;
+  label,
+  label:focus {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 130%;
+    color: #ffffff;
+  }
+  div {
+    background-color: #1f1d2b;
+    border-radius: 8px 8px 0 0;
+    color: #ffffff;
+  }
+  svg {
+    color: #ffffff;
+  }
+}
+.hotDishesBottom {
+  // height: 500px;
+}

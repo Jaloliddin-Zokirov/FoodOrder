@@ -1,0 +1,50 @@
+.forgot {
+  width: 100%;
+  padding-top: 150px;
+}
+
+.container {
+  width: 100%;
+  max-width: 450px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+.title {
+  margin: 0 0 40px;
+  font-weight: 600;
+  font-size: 28px;
+  line-height: 140%;
+  color: #ffffff;
+}
+
+.forgotBox {
+  width: 100%;
+}
+
+.labelBox {
+  margin-bottom: 20px;
+  div {
+    background-color: #1f1d2b;
+    border-radius: 5px 5px 0 0;
+  }
+  label {
+    color: #ccc;
+  }
+  input {
+    color: #ccc;
+  }
+}
+
+.buttonBox {
+  margin-bottom: 20px;
+  text-align: center;
+  button {
+    background-color: #ea7c69;
+    box-shadow: 0px 8px 24px rgba(234, 124, 105, 0.3);
+    &:hover {
+      background-color: #ea7c69;
+      box-shadow: 0px 8px 24px rgba(234, 124, 105, 0.3);
+    }
+  }
+}

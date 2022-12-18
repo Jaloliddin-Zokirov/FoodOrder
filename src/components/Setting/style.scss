@@ -1,0 +1,119 @@
+.settingLists {
+  .itemLink {
+    position: relative;
+    background: transparent;
+    text-decoration: none;
+    display: block;
+    .ItemWrapper {
+      padding: 22px;
+      display: flex;
+      .iconWrapper {
+        color: #abbbc2;
+        font-size: 20px;
+      }
+      .textWrapper {
+        padding: 0 10px;
+        h4 {
+          font-family: "Barlow";
+          font-style: normal;
+          font-weight: 500;
+          font-size: 24px;
+          line-height: 130%;
+          margin-bottom: 5px;
+          /* or 18px */
+
+          /* White */
+
+          color: #ffffff;
+        }
+        p {
+          margin: 7px 0;
+          font-family: "Barlow";
+          font-style: normal;
+          font-weight: 400;
+          font-size: 12px;
+          line-height: 140%;
+          /* identical to box height, or 17px */
+
+          /* Text/Light */
+
+          color: #abbbc2;
+        }
+      }
+    }
+  }
+  .itemLinkActive {
+    position: relative;
+    background: rgba(234, 124, 105, 0.26);
+    display: block;
+    text-decoration: none;
+    &::after {
+      display: block;
+      width: 4px;
+      height: 40%;
+      background: #ea7c69;
+      border-radius: 30px;
+      content: "";
+      position: absolute;
+      right: 0;
+      top: 30%;
+      bottom: 30%;
+    }
+    .ItemWrapper {
+      padding: 24px;
+      display: flex;
+      .iconWrapper {
+        color: #abbbc2;
+        font-size: 20px;
+      }
+      .textWrapper {
+        padding: 0 10px;
+        h4 {
+          font-family: "Barlow";
+          font-style: normal;
+          font-weight: 500;
+          font-size: 24px;
+          line-height: 130%;
+          margin-bottom: 5px;
+          /* or 18px */
+
+          /* White */
+
+          color: #ffffff;
+        }
+        p {
+          margin: 7px 0;
+          font-family: "Barlow";
+          font-style: normal;
+          font-weight: 400;
+          font-size: 12px;
+          line-height: 140%;
+          /* identical to box height, or 17px */
+
+          /* Text/Light */
+
+          color: #abbbc2;
+        }
+      }
+    }
+  }
+}
+
+.settingBox {
+  display: flex;
+  justify-content: space-between;
+}
+.settingLeft {
+  width: 25%;
+  height: 640px;
+  z-index: 111111;
+  background-color: #1f1d2b;
+  border-radius: 8px;
+  position: relative;
+}
+.settingRight {
+  width: 70%;
+  padding: 24px;
+  background-color: #1f1d2b;
+  border-radius: 8px;
+}
